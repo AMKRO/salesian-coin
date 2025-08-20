@@ -8,10 +8,6 @@ components:
   name: navbar_links
   properties: {}
   type: FlowPanel
-- layout_properties: {slot: title}
-  name: rich_text_1
-  properties: {content: hey guys josh here}
-  type: RichText
 container:
   properties: {html: '@theme:standard-page.html', visible: true}
   type: HtmlTemplate
