@@ -4,10 +4,6 @@ components:
     name: button_1
     properties: {text: button_1}
     type: Button
-  - layout_properties: {grid_position: ''}
-    name: link_1
-    properties: {text: Schoolbox link, url: 'https://schoolbox.scr.vic.edu.au'}
-    type: Link
   - layout_properties: {grid_position: 'GARMJS,PLDUEQ'}
     name: button_2
     properties: {text: button_2}
@@ -20,7 +16,11 @@ components:
     name: button_4
     properties: {text: button_4}
     type: Button
-  - layout_properties: {grid_position: ',ZAEYSN'}
+  - layout_properties: {grid_position: 'KSJUEX,GKTXQF'}
+    name: link_1
+    properties: {text: Schoolbox link, url: 'https://schoolbox.scr.vic.edu.au'}
+    type: Link
+  - layout_properties: {grid_position: 'KSJUEX,XCLAUE'}
     name: label_1
     properties: {visible: false}
     type: Label
