@@ -33,8 +33,9 @@ components:
   properties: {col_widths: '{}'}
   type: ColumnPanel
 - components:
-  - name: button_5
-    properties: {text: button_5}
+  - layout_properties: {}
+    name: button_5
+    properties: {text: Settings}
     type: Button
   layout_properties: {slot: nav-right}
   name: navbar_links
