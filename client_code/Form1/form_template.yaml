@@ -6,7 +6,7 @@ components:
     type: Image
   - layout_properties: {grid_position: 'ZRAZAN,AYMFYF'}
     name: button_1
-    properties: {text: button_1}
+    properties: {text: Receive}
     type: Button
   - layout_properties: {grid_position: 'GARMJS,PLDUEQ'}
     name: button_2
