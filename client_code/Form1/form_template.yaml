@@ -42,6 +42,9 @@ components:
   properties: {}
   type: FlowPanel
 - components:
+  - name: image_2
+    properties: {}
+    type: Image
   - name: button_6
     properties: {text: Menu}
     type: Button
