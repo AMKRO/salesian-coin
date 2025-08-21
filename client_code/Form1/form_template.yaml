@@ -41,7 +41,11 @@ components:
   name: navbar_links
   properties: {}
   type: FlowPanel
-- layout_properties: {slot: title}
+- layout_properties: {slot: top-left-btn}
+  name: image_2
+  properties: {}
+  type: Image
+- layout_properties: {slot: top-left-btn}
   name: button_6
   properties: {text: Menu}
   type: Button
