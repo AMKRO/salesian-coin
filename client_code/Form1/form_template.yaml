@@ -42,7 +42,7 @@ components:
   type: FlowPanel
 - layout_properties: {slot: title}
   name: button_6
-  properties: {text: button_6}
+  properties: {text: Menu}
   type: Button
 container:
   properties: {html: '@theme:standard-page.html', visible: true}
