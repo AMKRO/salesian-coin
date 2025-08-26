@@ -1,5 +1,9 @@
 components:
 - components:
+  - layout_properties: {grid_position: 'MAIKGD,EVLNRP'}
+    name: spacer_4
+    properties: {height: 248}
+    type: Spacer
   - layout_properties: {grid_position: 'IWSOOO,BHSJAI'}
     name: button_2
     properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: VOLUME SETTINGS}
