@@ -24,7 +24,8 @@ components:
     name: spacer_3
     properties: {height: 12}
     type: Spacer
-  - layout_properties: {grid_position: 'HFDKWH,QAKYNU'}
+  - event_bindings: {click: button_5_click}
+    layout_properties: {grid_position: 'HFDKWH,QAKYNU'}
     name: button_5
     properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: EXIT SETTINGS}
     type: Button
@@ -39,7 +40,7 @@ components:
 - event_bindings: {click: button_1_click}
   layout_properties: {slot: title}
   name: button_1
-  properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: MENU}
+  properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: HOME}
   type: Button
 container:
   properties: {background: '#2D3C5A', html: '@theme:standard-page.html'}
