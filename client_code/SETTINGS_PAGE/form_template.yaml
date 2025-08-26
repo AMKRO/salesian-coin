@@ -4,14 +4,26 @@ components:
     name: button_2
     properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: VOLUME SETTINGS}
     type: Button
+  - layout_properties: {grid_position: 'RHUORO,JQDDSR'}
+    name: spacer_1
+    properties: {height: 13}
+    type: Spacer
   - layout_properties: {grid_position: 'JWWRKR,GEETSX'}
     name: button_3
     properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: TERMS & CONDITIONS}
     type: Button
+  - layout_properties: {grid_position: 'MOITQA,ZZSHJZ'}
+    name: spacer_2
+    properties: {height: 11}
+    type: Spacer
   - layout_properties: {grid_position: 'AXYSJB,CYVDAX'}
     name: button_4
     properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: EXIT APP}
     type: Button
+  - layout_properties: {grid_position: 'FCRMEV,GGBFQX'}
+    name: spacer_3
+    properties: {height: 12}
+    type: Spacer
   - layout_properties: {grid_position: 'HFDKWH,QAKYNU'}
     name: button_5
     properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: EXIT SETTINGS}
