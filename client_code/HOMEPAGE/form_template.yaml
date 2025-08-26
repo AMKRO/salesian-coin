@@ -4,20 +4,37 @@ components:
     name: image_1
     properties: {height: 233, source: _/theme/Screenshot 2025-08-21 141532.png}
     type: Image
+  - layout_properties: {grid_position: 'XNXDWM,OFRAQG'}
+    name: spacer_3
+    properties: {height: 11}
+    type: Spacer
   - event_bindings: {click: button_1_click}
     layout_properties: {grid_position: 'ZRAZAN,AYMFYF'}
     name: button_1
-    properties: {background: 'theme:On Primary', text: Receive}
+    properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: Transactions}
     type: Button
+  - layout_properties: {grid_position: 'GVXFNJ,HVBUMB'}
+    name: spacer_4
+    properties: {height: 10}
+    type: Spacer
   - event_bindings: {click: button_2_click}
     layout_properties: {grid_position: 'GARMJS,PLDUEQ'}
     name: button_2
-    properties: {background: 'theme:On Primary', text: Send}
+    properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: Send}
     type: Button
-  - layout_properties: {grid_position: 'HAWUDJ,CJLAHW'}
+  - layout_properties: {grid_position: 'RZDVFL,NJWTEG'}
+    name: spacer_5
+    properties: {height: 11}
+    type: Spacer
+  - event_bindings: {click: button_4_click}
+    layout_properties: {grid_position: 'HAWUDJ,CJLAHW'}
     name: button_4
-    properties: {background: 'theme:On Primary', text: Buy}
+    properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: Buy}
     type: Button
+  - layout_properties: {grid_position: 'EQCIJA,HJTYRI'}
+    name: spacer_2
+    properties: {height: 133}
+    type: Spacer
   - layout_properties: {grid_position: 'KSJUEX,GKTXQF'}
     name: link_1
     properties: {background: '', foreground: 'theme:On Primary', text: Schoolbox link, url: 'https://schoolbox.scr.vic.edu.au'}
@@ -28,7 +45,7 @@ components:
     type: Spacer
   layout_properties: {slot: default}
   name: content_panel
-  properties: {col_widths: '{}'}
+  properties: {background: '#2d3c5a', col_widths: '{}'}
   type: ColumnPanel
 - components:
   - name: image_2
