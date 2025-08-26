@@ -1,7 +1,7 @@
 allow_embedding: false
 dependencies: []
-name: MEIN AMBOSS PROJEKT
-package_name: MEIN_AMBOSS_PROJEKT
+name: SALESIAN COIN
+package_name: SALESIAN_COIN
 renamed: true
 runtime_options:
   client_version: '3'

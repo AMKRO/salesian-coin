@@ -10,7 +10,8 @@ components:
     name: button_1
     properties: {background: 'theme:On Primary', text: Receive}
     type: Button
-  - layout_properties: {grid_position: 'GARMJS,PLDUEQ'}
+  - event_bindings: {click: button_2_click}
+    layout_properties: {grid_position: 'GARMJS,PLDUEQ'}
     name: button_2
     properties: {background: 'theme:On Primary', text: Send}
     type: Button
@@ -24,12 +25,12 @@ components:
     type: Button
   - layout_properties: {grid_position: 'KSJUEX,GKTXQF'}
     name: link_1
-    properties: {background: '', text: Schoolbox link, url: 'https://schoolbox.scr.vic.edu.au'}
+    properties: {background: '', foreground: 'theme:On Primary', text: Schoolbox link, url: 'https://schoolbox.scr.vic.edu.au'}
     type: Link
-  - layout_properties: {grid_position: 'KSJUEX,XCLAUE'}
-    name: label_1
-    properties: {visible: false}
-    type: Label
+  - layout_properties: {grid_position: 'KSJUEX,YCNIGD'}
+    name: spacer_1
+    properties: {height: 32}
+    type: Spacer
   layout_properties: {slot: default}
   name: content_panel
   properties: {col_widths: '{}'}
