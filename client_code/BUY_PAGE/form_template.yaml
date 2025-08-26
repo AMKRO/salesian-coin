@@ -8,6 +8,6 @@ components:
   properties: {}
   type: FlowPanel
 container:
-  properties: {html: '@theme:standard-page.html'}
+  properties: {background: '', html: '@theme:standard-page.html'}
   type: HtmlTemplate
 is_package: true
