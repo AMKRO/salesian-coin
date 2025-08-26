@@ -12,7 +12,7 @@ components:
     event_bindings: {click: button_1_click}
     layout_properties: {grid_position: 'ZRAZAN,AYMFYF'}
     name: button_1
-    properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: Receive}
+    properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: Transactions}
     type: Button
   - layout_properties: {grid_position: 'GVXFNJ,HVBUMB'}
     name: spacer_4
@@ -44,9 +44,10 @@ components:
     name: spacer_1
     properties: {height: 32}
     type: Spacer
+  data_bindings: []
   layout_properties: {slot: default}
   name: content_panel
-  properties: {col_widths: '{}'}
+  properties: {background: '#2d3c5a', col_widths: '{}'}
   type: ColumnPanel
 - components:
   - layout_properties: {}
