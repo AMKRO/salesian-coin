@@ -14,7 +14,7 @@ class HOMEPAGE(HOMEPAGETemplate):
 
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
-    open_form('RECEIVE_PAGE')
+    open_form('TRANSACTIONS_PAGE')
 
   def button_5_click(self, **event_args):
     """This method is called when the button is clicked"""
@@ -27,3 +27,7 @@ class HOMEPAGE(HOMEPAGETemplate):
   def button_4_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('BUY_PAGE')
+
+  def button_6_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('HOMEPAGE')

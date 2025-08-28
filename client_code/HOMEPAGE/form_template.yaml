@@ -51,7 +51,8 @@ components:
   - name: image_2
     properties: {height: 107}
     type: Image
-  - name: button_6
+  - event_bindings: {click: button_6_click}
+    name: button_6
     properties: {text: Menu}
     type: Button
   layout_properties: {slot: title}

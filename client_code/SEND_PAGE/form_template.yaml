@@ -42,6 +42,11 @@ components:
   name: navbar_links
   properties: {}
   type: FlowPanel
+- event_bindings: {click: button_1_click}
+  layout_properties: {slot: title}
+  name: button_1
+  properties: {text: HOME <---}
+  type: Button
 container:
   properties: {background: '#2D3C5A', html: '@theme:standard-page.html'}
   type: HtmlTemplate
