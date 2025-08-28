@@ -6,7 +6,7 @@ components:
 - event_bindings: {click: button_1_click}
   layout_properties: {slot: title}
   name: button_1
-  properties: {text: HOME <---}
+  properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: MENU}
   type: Button
 - components:
   - layout_properties: {grid_position: 'QTWVFB,EBETPJ'}
@@ -37,6 +37,10 @@ components:
   name: content_panel
   properties: {}
   type: ColumnPanel
+- layout_properties: {slot: top-left-btn}
+  name: image_2
+  properties: {height: 49, source: _/theme/R.png}
+  type: Image
 container:
   properties: {background: '#2d3c5a', html: '@theme:standard-page.html'}
   type: HtmlTemplate

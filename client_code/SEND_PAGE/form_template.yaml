@@ -52,8 +52,12 @@ components:
 - event_bindings: {click: button_1_click}
   layout_properties: {slot: title}
   name: button_1
-  properties: {text: HOME <---}
+  properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: MENU}
   type: Button
+- layout_properties: {slot: top-left-btn}
+  name: image_1
+  properties: {height: 47, source: _/theme/R.png}
+  type: Image
 container:
   properties: {background: '#2D3C5A', html: '@theme:standard-page.html'}
   type: HtmlTemplate

@@ -47,6 +47,10 @@ components:
   name: button_1
   properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: HOME}
   type: Button
+- layout_properties: {slot: top-left-btn}
+  name: image_1
+  properties: {height: 49, source: _/theme/R.png}
+  type: Image
 container:
   properties: {background: '#2D3C5A', html: '@theme:standard-page.html'}
   type: HtmlTemplate
