@@ -1,28 +1,25 @@
 allow_embedding: false
 db_schema:
-  users:
+  blockchain:
     client: none
     columns:
     - admin_ui: {order: 0, width: 200}
-      name: email
+      name: previous_hash
       type: string
     - admin_ui: {order: 1, width: 200}
-      name: enabled
-      type: bool
+      name: timestamp
+      type: number
     - admin_ui: {order: 2, width: 200}
-      name: last_login
-      type: datetime
+      name: nonce
+      type: number
     - admin_ui: {order: 3, width: 200}
-      name: password_hash
+      name: hash
       type: string
     - admin_ui: {order: 4, width: 200}
-      name: n_password_failures
+      name: transactionList
       type: number
-    - admin_ui: {order: 5, width: 200}
-      name: confirmed_email
-      type: bool
     server: full
-    title: Users
+    title: BLOCKCHAIN
 dependencies: []
 name: SALESIAN COIN
 package_name: SALESIAN_COIN
