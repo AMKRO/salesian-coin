@@ -2,21 +2,24 @@ components:
 - components:
   - layout_properties: {grid_position: 'CQCKDV,CABSVL'}
     name: label_1
-    properties: {foreground: 'theme:On Primary', text: 'Who would you like to send a gift to?'}
+    properties: {foreground: 'theme:On Primary', text: 'Enter the student ID of the user:'}
     type: Label
-  - layout_properties: {grid_position: 'REUAOL,PHZSKI'}
+  - layout_properties: {grid_position: 'CQCKDV,HPGNQX'}
     name: text_box_1
     properties: {}
     type: TextBox
+  - layout_properties: {grid_position: 'IIMVUL,ETPUFM'}
+    name: spacer_2
+    properties: {height: -9}
+    type: Spacer
   - layout_properties: {grid_position: 'CWRORU,ZADGYZ'}
     name: label_2
-    properties: {foreground: 'theme:On Primary', text: Add Friend's student ID}
+    properties: {foreground: 'theme:On Primary', text: 'Enter amount to send:'}
     type: Label
-  - layout_properties: {grid_position: 'NWBSOA,TCFAAZ'}
-    name: drop_down_1
-    properties:
-      items: []
-    type: DropDown
+  - layout_properties: {grid_position: 'CWRORU,SZRWKA'}
+    name: text_box_2
+    properties: {}
+    type: TextBox
   - layout_properties: {grid_position: 'ILYFQM,OPBWHG'}
     name: spacer_1
     properties: {height: 436}
@@ -36,7 +39,7 @@ components:
     type: Label
   layout_properties: {slot: default}
   name: content_panel
-  properties: {}
+  properties: {col_widths: '{"ZADGYZ":15,"SZRWKA":45,"CABSVL":15,"HPGNQX":45}'}
   type: ColumnPanel
 - layout_properties: {slot: nav-right}
   name: navbar_links
