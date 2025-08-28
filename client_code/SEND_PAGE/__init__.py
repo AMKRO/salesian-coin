@@ -11,3 +11,18 @@ class SEND_PAGE(SEND_PAGETemplate):
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('HOMEPAGE')
+
+  def image_1_mouse_down(self, x, y, button, keys, **event_args):
+    """This method is called when a mouse button is pressed on this component"""
+    open_form('HOMEPAGE')
+
+  def image_1_mouse_enter(self, x, y, **event_args):
+    """This method is called when the mouse cursor enters this component"""
+    self.image_1.height = 50
+    self.image_1.width = 50
+
+  def image_1_mouse_leave(self, x, y, **event_args):
+    """This method is called when the mouse cursor leaves this component"""
+    self.image_1.height = 50
+    self.image_1.width = 50
+  

@@ -48,7 +48,8 @@ components:
   name: button_1
   properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: MENU}
   type: Button
-- layout_properties: {slot: top-left-btn}
+- event_bindings: {mouse_down: image_1_mouse_down, mouse_enter: image_1_mouse_enter, mouse_leave: image_1_mouse_leave}
+  layout_properties: {slot: top-left-btn}
   name: image_1
   properties: {height: 47, source: _/theme/R.png}
   type: Image
