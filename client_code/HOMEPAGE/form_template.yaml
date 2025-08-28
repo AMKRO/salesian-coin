@@ -50,14 +50,10 @@ components:
   properties: {background: '#2d3c5a', col_widths: '{}'}
   type: ColumnPanel
 - components:
-  - layout_properties: {}
-    name: image_2
-    properties: {height: 107}
-    type: Image
   - event_bindings: {click: button_6_click}
     layout_properties: {}
     name: button_6
-    properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: Menu}
+    properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: MENU}
     type: Button
   layout_properties: {slot: title}
   name: linear_panel_1
@@ -75,6 +71,10 @@ components:
   name: navbar_links
   properties: {}
   type: FlowPanel
+- layout_properties: {slot: top-left-btn}
+  name: image_2
+  properties: {height: 48, source: _/theme/R.png}
+  type: Image
 container:
   properties: {background: '#2D3C5A', html: '@theme:standard-page.html', visible: true}
   type: HtmlTemplate
