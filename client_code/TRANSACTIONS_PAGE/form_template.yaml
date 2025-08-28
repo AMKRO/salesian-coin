@@ -21,7 +21,7 @@ components:
     - name: repeating_panel_1
       properties: {item_template: TRANSACTIONS_PAGE.RowTemplate1}
       type: RepeatingPanel
-    layout_properties: {grid_position: 'ZEVXGU,XJAVLT'}
+    layout_properties: {grid_position: 'MRSVFP,JDEFFY'}
     name: data_grid_1
     properties:
       background: '#354B79'
@@ -31,11 +31,8 @@ components:
       - {data_key: column_2, id: VJQQOR, title: RECEIVED}
       - {data_key: column_3, id: OJLQEN, title: SENT}
       foreground: '#FCB035'
+      visible: true
     type: DataGrid
-  - layout_properties: {grid_position: 'LQUIUH,TYWAUG'}
-    name: repeating_panel_2
-    properties: {item_template: TRANSACTIONS_PAGE.ItemTemplate1}
-    type: RepeatingPanel
   layout_properties: {slot: default}
   name: content_panel
   properties: {}
