@@ -55,8 +55,9 @@ components:
     properties: {height: 107}
     type: Image
   - event_bindings: {click: button_6_click}
+    layout_properties: {}
     name: button_6
-    properties: {text: Menu}
+    properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: Menu}
     type: Button
   layout_properties: {slot: title}
   name: linear_panel_1

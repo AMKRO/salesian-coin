@@ -15,7 +15,7 @@ components:
 - event_bindings: {click: button_1_click}
   layout_properties: {slot: title}
   name: button_1
-  properties: {text: HOME <---}
+  properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: MENU}
   type: Button
 container:
   properties: {background: '#2d3c5a', html: '@theme:standard-page.html'}
