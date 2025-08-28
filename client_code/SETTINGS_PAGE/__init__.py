@@ -1,5 +1,6 @@
 from ._anvil_designer import SETTINGS_PAGETemplate
 from anvil import *
+import plotly.graph_objects as go
 
 class SETTINGS_PAGE(SETTINGS_PAGETemplate):
   def __init__(self, **properties):
