@@ -12,6 +12,15 @@ class SEND_PAGE(SEND_PAGETemplate):
 
     # Any code you write here will run before the form opens.
 
+    while True:
+      if self.amount_textbox.text is not None and self.userID_Textbox.text is not None:
+        self.submit_button.visible = True
+        
+    
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('HOMEPAGE')
+
+  def submit_button_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    pass
