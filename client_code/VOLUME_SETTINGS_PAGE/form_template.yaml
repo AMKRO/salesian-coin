@@ -9,7 +9,7 @@ components:
   type: FlowPanel
 - layout_properties: {slot: top-left-btn}
   name: image_1
-  properties: {source: _/theme/R.png}
+  properties: {source: _/theme/R.png, visible: true}
   type: Image
 container:
   properties: {background: '#2d3c5a', html: '@theme:standard-page.html'}
