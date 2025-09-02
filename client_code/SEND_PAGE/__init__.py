@@ -1,5 +1,6 @@
 from ._anvil_designer import SEND_PAGETemplate
 from anvil import *
+import anvil.server
 
 class SEND_PAGE(SEND_PAGETemplate):
   def __init__(self, **properties):
