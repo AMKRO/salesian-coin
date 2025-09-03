@@ -20,7 +20,7 @@ components:
   - event_bindings: {click: button_2_click}
     layout_properties: {grid_position: 'GARMJS,PLDUEQ'}
     name: button_2
-    properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: Send}
+    properties: {background: '#FCB035', enabled: true, foreground: 'theme:On Primary Container', text: Send, visible: true}
     type: Button
   - layout_properties: {grid_position: 'CGLJBB,TIELMI'}
     name: spacer_4_copy_copy
@@ -33,7 +33,7 @@ components:
     type: Button
   - layout_properties: {grid_position: 'EQCIJA,HJTYRI'}
     name: spacer_2
-    properties: {height: 133}
+    properties: {height: 91}
     type: Spacer
   - layout_properties: {grid_position: 'KSJUEX,GKTXQF'}
     name: link_1

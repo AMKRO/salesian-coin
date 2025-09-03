@@ -24,4 +24,8 @@ class SETTINGS_PAGE(SETTINGS_PAGETemplate):
 
   def button_4_click(self, **event_args):
     """This method is called when the button is clicked"""
+
+  def button_2_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('VOLUME_SETTINGS_PAGE')
   
