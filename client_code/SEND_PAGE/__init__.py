@@ -4,6 +4,7 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.users
+import anvil.server
 
 class SEND_PAGE(SEND_PAGETemplate):
   def __init__(self, **properties):
@@ -38,3 +39,4 @@ class SEND_PAGE(SEND_PAGETemplate):
     self.image_1.height = 50
     self.image_1.width = 50
   
+    
