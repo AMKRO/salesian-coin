@@ -1,36 +1,36 @@
 components:
 - components:
-  - layout_properties: {grid_position: 'MAIKGD,EVLNRP'}
+  - layout_properties: {grid_position: 'OOTIQX,FZBWJU MAIKGD,EVLNRP'}
     name: spacer_4
     properties: {height: 248}
     type: Spacer
-  - layout_properties: {grid_position: 'IWSOOO,BHSJAI'}
+  - layout_properties: {grid_position: 'OOTIQX,FZBWJU IWSOOO,BHSJAI'}
     name: button_2
     properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: VOLUME SETTINGS}
     type: Button
-  - layout_properties: {grid_position: 'RHUORO,JQDDSR'}
+  - layout_properties: {grid_position: 'OOTIQX,FZBWJU RHUORO,JQDDSR'}
     name: spacer_1
     properties: {height: 13}
     type: Spacer
-  - layout_properties: {grid_position: 'JWWRKR,GEETSX'}
+  - layout_properties: {grid_position: 'OOTIQX,FZBWJU JWWRKR,GEETSX'}
     name: button_3
     properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: TERMS & CONDITIONS}
     type: Button
-  - layout_properties: {grid_position: 'MOITQA,ZZSHJZ'}
+  - layout_properties: {grid_position: 'OOTIQX,FZBWJU MOITQA,ZZSHJZ'}
     name: spacer_2
     properties: {height: 11}
     type: Spacer
   - event_bindings: {click: button_4_click}
-    layout_properties: {grid_position: 'AXYSJB,CYVDAX'}
+    layout_properties: {grid_position: 'OOTIQX,FZBWJU AXYSJB,CYVDAX'}
     name: button_4
     properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: EXIT APP}
     type: Button
-  - layout_properties: {grid_position: 'FCRMEV,GGBFQX'}
+  - layout_properties: {grid_position: 'OOTIQX,FZBWJU FCRMEV,GGBFQX'}
     name: spacer_3
     properties: {height: 12}
     type: Spacer
   - event_bindings: {click: button_5_click}
-    layout_properties: {grid_position: 'HFDKWH,QAKYNU'}
+    layout_properties: {grid_position: 'OOTIQX,FZBWJU HFDKWH,QAKYNU'}
     name: button_5
     properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: EXIT SETTINGS}
     type: Button
@@ -45,7 +45,7 @@ components:
 - event_bindings: {click: button_1_click}
   layout_properties: {slot: title}
   name: button_1
-  properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: HOME}
+  properties: {background: '#FCB035', foreground: 'theme:On Primary Container', text: MENU}
   type: Button
 - layout_properties: {slot: top-left-btn}
   name: image_1
