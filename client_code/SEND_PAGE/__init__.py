@@ -4,6 +4,7 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.users
+import anvil.server
 
 class SEND_PAGE(SEND_PAGETemplate):
   def __init__(self, **properties):
@@ -24,3 +25,7 @@ class SEND_PAGE(SEND_PAGETemplate):
   def submit_button_click(self, **event_args):
     """This method is called when the button is clicked"""
     pass
+  def image_1_mouse_down(self, x, y, button, keys, **event_args):
+    """This method is called when a mouse button is pressed on this component"""
+    open_form('HOMEPAGE')
+    

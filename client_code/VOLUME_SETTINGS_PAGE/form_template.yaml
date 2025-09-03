@@ -1,5 +1,18 @@
 components:
-- layout_properties: {slot: default}
+- components:
+  - layout_properties: {grid_position: 'SQQMGX,IZFHFE'}
+    name: radio_button_1
+    properties: {text: radio_button_1}
+    type: RadioButton
+  - layout_properties: {grid_position: 'HFSEUV,HMBPAK'}
+    name: check_box_1
+    properties: {text: check_box_1}
+    type: CheckBox
+  - layout_properties: {grid_position: 'YXSETJ,FOQZZT'}
+    name: check_box_2
+    properties: {text: check_box_2}
+    type: CheckBox
+  layout_properties: {slot: default}
   name: content_panel
   properties: {}
   type: ColumnPanel
@@ -9,8 +22,13 @@ components:
   type: FlowPanel
 - layout_properties: {slot: top-left-btn}
   name: image_1
-  properties: {source: _/theme/R.png}
+  properties: {height: 50, source: _/theme/R.png}
   type: Image
+- event_bindings: {click: button_1_click}
+  layout_properties: {slot: title}
+  name: button_1
+  properties: {text: MENU}
+  type: Button
 container:
   properties: {background: '#2d3c5a', html: '@theme:standard-page.html'}
   type: HtmlTemplate
