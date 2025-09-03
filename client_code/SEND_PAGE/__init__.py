@@ -13,9 +13,9 @@ class SEND_PAGE(SEND_PAGETemplate):
 
     # Any code you write here will run before the form opens.
 
-    while True:
-      if self.amount_textbox.text is not None and self.userID_Textbox.text is not None:
-        self.submit_button.visible = True
+    # while True:
+    #   if self.amount_textbox.text is not None and self.userID_Textbox.text is not None:
+    #     self.submit_button.visible = True
         
     
   def button_1_click(self, **event_args):
