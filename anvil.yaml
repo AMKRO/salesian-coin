@@ -17,7 +17,7 @@ db_schema:
       type: string
     - admin_ui: {order: 4, width: 200}
       name: transactionList
-      type: number
+      type: simpleObject
     server: full
     title: BLOCKCHAIN
 dependencies: []

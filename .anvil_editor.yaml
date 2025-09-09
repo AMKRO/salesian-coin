@@ -15,4 +15,6 @@ unique_ids:
     VOLUME_SETTINGS_PAGE: T7LHWLXYFMTIBBF2OSIPCKJUSON27QBT
   modules: {}
   scripts: {}
-  server_modules: {}
+  server_modules:
+    Blockchain_Server: '1757382426556386239833395.3694'
+    FetchDB: '1757383562826739616944286.7854'

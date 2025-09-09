@@ -1,17 +1,23 @@
 from ._anvil_designer import TRANSACTIONS_PAGETemplate
 from anvil import *
-import anvil.tables as tables
-import anvil.tables.query as q
-from anvil.tables import app_tables
-
+import anvil.users
+import anvil.server
 
 class TRANSACTIONS_PAGE(TRANSACTIONS_PAGETemplate):
   def __init__(self, **properties):
-    # Set Form properties and Data Bindings.
     self.init_components(**properties)
 
-    # Any code you write here will run before the form opens.
+    current_user = anvil.users.get_user()
+    if current_user:
+      current_user_id = current_user.get_id()
+    else:
+      current_user_id = None
+
+    if current_user_id:
+      transactions = anvil.server.call('get_transactions_for_user', current_user_id)
+      self.data_grid_1.items = transactions
+    else:
+      self.data_grid_1.items = []
 
   def button_1_click(self, **event_args):
-    """This method is called when the button is clicked"""
     open_form('HOMEPAGE')
