@@ -61,8 +61,9 @@ components:
     name: button_5
     properties: {text: Settings}
     type: Button
-  - name: image_3
-    properties: {height: 184}
+  - layout_properties: {}
+    name: image_3
+    properties: {height: 38}
     type: Image
   layout_properties: {slot: nav-right}
   name: navbar_links
@@ -73,6 +74,6 @@ components:
   properties: {height: 48, source: _/theme/R.png}
   type: Image
 container:
-  properties: {background: '#2D3C5A', html: '@theme:standard-page.html', visible: true}
+  properties: {background: '#2d3c5a', foreground: '', html: '@theme:standard-page.html', visible: true}
   type: HtmlTemplate
 is_package: true
