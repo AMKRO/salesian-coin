@@ -19,25 +19,30 @@ class SEND_PAGE(SEND_PAGETemplate):
       self.submit_button.visible = False
 
   def submit_button_click(self, **event_args):
-    import anvil.users    
     user_id = self.userID_Textbox.text.strip()
-    amount = self.amount_textbox.text.strip()
+    amount_text = self.amount_textbox.text.strip()
 
-    current_user = anvil.users.get_user()
-    if current_user:
-      sender_id = current_user.get_id()  # or current_user['email'], depending on your setup
-    else:
-      sender_id = "unknown"
+    try:
+      amount = float(amount_text)
+      if amount <= 0:
+        alert("Amount must be greater than zero.")
+        return
+    except ValueError:
+      alert("Amount must be a number.")
+      return
+
+    if not user_id or not amount_text:
+      alert("Please enter both recipient and amount.")
+      return
+
+    # Fixed sender ID since no user system
+    sender_id = "Unknown User"
 
     transaction = {
       "sender": sender_id,
       "recipient": user_id,
       "amount": amount
     }
-    
-    if not user_id or not amount:
-      alert("Please enter both recipient and amount.")
-      return
 
     try:
       block_hash = anvil.server.call('add_transaction', transaction)
@@ -52,4 +57,3 @@ class SEND_PAGE(SEND_PAGETemplate):
 
   def button_1_click(self, **event_args):
     open_form('HOMEPAGE')
-    pass

@@ -4,6 +4,21 @@ from datetime import datetime
 import anvil.server
 
 @anvil.server.callable
+def get_all_transactions():
+  tx_list = []
+  for block in app_tables.blockchain.search():
+    date_str = datetime.fromtimestamp(block['timestamp']).strftime("%d/%m/%Y")
+    for tx in block['transactionList']:
+      tx_list.append({
+        'date': date_str,
+        'sender': tx.get('sender', ''),
+        'recipient': tx.get('recipient', ''),
+        'amount': tx.get('amount', ''),
+        'type': 'N/A'
+      })
+  print(f"Returning {len(tx_list)} transactions from server")
+  return tx_list
+
 def get_transactions_for_user(user_id):
   tx_list = []
   for block in app_tables.blockchain.search():

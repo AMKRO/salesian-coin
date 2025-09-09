@@ -18,7 +18,8 @@ components:
     properties: {height: 101}
     type: Spacer
   - components:
-    - name: repeating_panel_1
+    - layout_properties: {}
+      name: repeating_panel_1
       properties: {item_template: TRANSACTIONS_PAGE.RowTemplate1}
       type: RepeatingPanel
     layout_properties: {grid_position: 'MRSVFP,JDEFFY'}
@@ -26,10 +27,11 @@ components:
     properties:
       background: '#354B79'
       columns:
-      - {data_key: column_1, id: JKSDUP, title: DATE}
-      - {data_key: column_1, id: DKZRMD, title: FROM}
-      - {data_key: column_2, id: VJQQOR, title: RECEIVED}
-      - {data_key: column_3, id: OJLQEN, title: SENT}
+      - {data_key: date, expand: false, id: JKSDUP, title: date}
+      - {data_key: sender, id: DKZRMD, title: sender}
+      - {data_key: recipient, id: VJQQOR, title: recipient}
+      - {data_key: amount, id: OJLQEN, title: amount}
+      - {data_key: type, id: YJOEXH, title: type}
       foreground: '#FCB035'
       visible: true
     type: DataGrid
